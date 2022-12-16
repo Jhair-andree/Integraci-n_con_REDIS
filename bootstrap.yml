@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: microservice-passive-accounts
+  cloud:
+    config:
+      enabled: true
+      label: main
+      uri: http://bank-config:8888
